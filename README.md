@@ -2,15 +2,6 @@
 
 This is the MEAN stack project for the course **Web Design/User Experience Engineering (INFO 6150)**
 
-## Team Members
-
-|        NAME         |   NUID  |
-| --------------------|---------|
-| Yashaswi Singh      | 1352597 |
-| Pooja Pingle	      | 1819590 |
-| Rishabh Shrivastava |	1383940 |
-| Aditya Kelkar       | 1888711 |	
-
 ## Project Particulars
 There are two parts to this project
 1. Angular 7 based frontend - Found in the directory `Client`
