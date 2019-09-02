@@ -36,7 +36,7 @@ export class RegisterComponent implements OnInit {
     //   return;
     // }
     var regexEmail = this.ValidateEmail(event.value.emailAddress);
-    if(!regexEmail){
+    if (!regexEmail) {
       this.errorPopup = true;
       //alert("Please enter Email Address and Password");
       this.errorText = "Please enter valid Email Address";

@@ -14,3 +14,4 @@ server/package-lock.json
 /dist
 server/nodemon.json
 .env
+package.lock.json

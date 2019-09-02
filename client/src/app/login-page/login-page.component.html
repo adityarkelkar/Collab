@@ -1,32 +1,25 @@
-
-
 <!-- login page along with div -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-  crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <form #loginForm="ngForm" (ngSubmit)="loginUser(loginForm)" id="loginForm" class="loginbackground">
   <div class="container">
     <h2>
-<<<<<<< HEAD
-      <!-- header for login page -->
-      <i class="fas fa-biohazard"></i>LOGIN HERE
-      <i class="fas fa-biohazard"></i>
-=======
       <i class="fas fa-biohazard"></i>LOGIN HERE<i class="fas fa-biohazard"></i>
->>>>>>> da14df261273ea194c2d3991d500c52829a2c5f8
     </h2>
     <div>
       <!-- email address -->
-      <input ngModel #emailAddress="ngModel" type="text" autocomplete="off" placeholder="Email" id="emailAddress" name="emailAddress" />
+      <input ngModel #emailAddress="ngModel" type="text" autocomplete="off" placeholder="Email" id="emailAddress"
+        name="emailAddress" />
     </div>
     <div>
       <!-- password -->
-      <input ngModel #password="ngModel" type="password" autocomplete="off" placeholder="Password" name="password" id="password" />
+      <input ngModel #password="ngModel" type="password" autocomplete="off" placeholder="Password" name="password"
+        id="password" />
     </div>
     <div>
       <!-- login button -->
       <button type="submit" id="submit">LOGIN</button>
     </div>
-
   </div>
 </form>
 <!-- pop events -->

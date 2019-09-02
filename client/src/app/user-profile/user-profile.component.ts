@@ -52,10 +52,8 @@ export class UserProfileComponent implements OnInit {
       .subscribe(data => {
         this.users = [];
         this.users = data;
-        console.log("data in user profile")
-        console.log(data)
-        for (var i = 0; i < this.users.length; i++) {
-          if (this.users[i].emailAddress == this.loggedEmail) {
+        for (let i = 0; i < this.users.length; i++) {
+          if (this.users[i].emailAddress === this.loggedEmail) {
             this.userData.push(data[i]);
             this.firstName = this.userData[0].firstName;
             this.lastName = this.userData[0].lastName;
@@ -72,7 +70,6 @@ export class UserProfileComponent implements OnInit {
   }
 
   refreshNav() {
-    console.log('refresh nav ')
     this.emailAvailable = true;
   }
 

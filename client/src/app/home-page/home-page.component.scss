@@ -5,9 +5,6 @@ $bgcolors:#7cd4d4,
 $keycolor:#03384b;
 $subcolor:#f9f6f1;
 
-<<<<<<< HEAD
-// adding the header font anf font sie
-=======
 .header {
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,8 +12,6 @@ $subcolor:#f9f6f1;
   p {
     font-size: 20px;
   }
->>>>>>> da14df261273ea194c2d3991d500c52829a2c5f8
-
 }
 
 
@@ -25,10 +20,6 @@ body {
   background: $subcolor;
 }
 
-<<<<<<< HEAD
-// each div with 4 different color
-=======
->>>>>>> da14df261273ea194c2d3991d500c52829a2c5f8
 div {
   padding: 4em 0;
   text-align: center;
@@ -40,57 +31,47 @@ div {
       background: nth($bgcolors, $i + 1) url(http://www.graphicartsunit.com/images/noise.png);
     }
   }
-<<<<<<< HEAD
- }
 
-//  button orientation along with the styling of border, display ,etc.
-=======
-}
+  .btn {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: $keycolor;
+    display: inline-block;
+    padding: 20px 40px 20px 40px;
+    position: relative;
+    border: 3px solid $keycolor;
 
->>>>>>> da14df261273ea194c2d3991d500c52829a2c5f8
-.btn {
-  font-family: lato, sans-serif;
-  font-weight: bold;
-  font-size: 1em;
-  letter-spacing: 0.1em;
-  text-decoration: none;
-  color: $keycolor;
-  display: inline-block;
-  padding: 20px 40px 20px 40px;
-  position: relative;
-  border: 3px solid $keycolor;
-
-  &:before {
-    border: 3px solid $subcolor;
-    background: url(http://www.graphicartsunit.com/images/noise2.png);
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    &:before {
+      border: 3px solid $subcolor;
+      background: url(http://www.graphicartsunit.com/images/noise2.png);
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
   }
-}
 
-<<<<<<< HEAD
-// for login button style
-=======
-.button-1 {
-  border-radius: 100em;
-
-  &:before {
+  .button-1 {
     border-radius: 100em;
-    left: 2px;
-    top: 1px;
+
+    &:before {
+      border-radius: 100em;
+      left: 2px;
+      top: 1px;
+    }
   }
-}
 
->>>>>>> da14df261273ea194c2d3991d500c52829a2c5f8
-.button-2 {
-  border-radius: 5px;
-
-  &:before {
+  .button-2 {
     border-radius: 5px;
-    left: 2px;
-    top: 1px;
+
+    &:before {
+      border-radius: 5px;
+      left: 2px;
+      top: 1px;
+    }
   }
 }
